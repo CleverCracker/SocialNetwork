@@ -19,10 +19,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        needNewAccountLink = (TextView) findViewById(R.id.register_account_link);
-        userEmail = (EditText) findViewById(R.id.login_email);
-        userPassword = (EditText) findViewById(R.id.login_password);
-        loginButton = (Button) findViewById(R.id.login_button);
+        needNewAccountLink = findViewById(R.id.register_account_link);
+        userEmail = findViewById(R.id.login_email);
+        userPassword = findViewById(R.id.login_password);
+        loginButton = findViewById(R.id.login_button);
 
         needNewAccountLink.setOnClickListener(new View.OnClickListener() {
             @Override
